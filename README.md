@@ -2,7 +2,7 @@
 
 > ⚠️ This project is a work in progress. The code is not perfect, but it works. I have tried my best.
 
- ![Main Window](screenshots/1.png)
+ ![Main Window](https://github.com/zubair-boii/WindowsActivator/blob/master/screenshots/1.PNG)
 
 ## Overview
 This is a simple Windows desktop application built with WPF.  
