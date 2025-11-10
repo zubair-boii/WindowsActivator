@@ -2,7 +2,7 @@
 
 > ⚠️ This project is a work in progress. The code is not perfect, but it works. I have tried my best.
 
- ![Main Window](screenshots/main-window.png)
+ ![Main Window](screenshots/1.png)
 
 ## Overview
 This is a simple Windows desktop application built with WPF.  
