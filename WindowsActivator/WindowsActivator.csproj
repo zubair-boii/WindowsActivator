@@ -1,0 +1,157 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows10.0.18362.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <SupportedOSPlatformVersion>7.0</SupportedOSPlatformVersion>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Activators\ohook_activation.cmd" />
+    <None Remove="Activators\tsforge_activation.cmd" />
+    <None Remove="Tickets\Cloud %28S%29 N.xml" />
+    <None Remove="Tickets\Cloud %28S%29.xml" />
+    <None Remove="Tickets\CloudEdition %28SE%29 N.xml" />
+    <None Remove="Tickets\CloudEdition %28SE%29.xml" />
+    <None Remove="Tickets\Education N.xml" />
+    <None Remove="Tickets\Education.xml" />
+    <None Remove="Tickets\Enterprise LTSB 2015.xml" />
+    <None Remove="Tickets\Enterprise LTSB 2016.xml" />
+    <None Remove="Tickets\Enterprise LTSC 2019.xml" />
+    <None Remove="Tickets\Enterprise N LTSB 2015.xml" />
+    <None Remove="Tickets\Enterprise N LTSB 2016.xml" />
+    <None Remove="Tickets\Enterprise N.xml" />
+    <None Remove="Tickets\Enterprise.xml" />
+    <None Remove="Tickets\Home China.xml" />
+    <None Remove="Tickets\Home N.xml" />
+    <None Remove="Tickets\Home Single Language.xml" />
+    <None Remove="Tickets\Home.xml" />
+    <None Remove="Tickets\IoT Enterprise LTSC 2021.xml" />
+    <None Remove="Tickets\IoT Enterprise LTSC 2024.xml" />
+    <None Remove="Tickets\IoT Enterprise LTSC Subscription 2024.xml" />
+    <None Remove="Tickets\IoT Enterprise Subscription.xml" />
+    <None Remove="Tickets\IoT Enterprise.xml" />
+    <None Remove="Tickets\KMS38.xml" />
+    <None Remove="Tickets\Pro Education N.xml" />
+    <None Remove="Tickets\Pro Education.xml" />
+    <None Remove="Tickets\Pro for Workstations.xml" />
+    <None Remove="Tickets\Pro N for Workstations.xml" />
+    <None Remove="Tickets\Pro N.xml" />
+    <None Remove="Tickets\Pro.xml" />
+    <None Remove="Tickets\Team.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Activators\tsforge_activation.cmd">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tickets\Cloud (S) N.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tickets\Cloud (S).xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tickets\CloudEdition (SE) N.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tickets\CloudEdition (SE).xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tickets\Education N.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tickets\Education.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tickets\Enterprise LTSB 2015.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tickets\Enterprise LTSB 2016.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tickets\Enterprise LTSC 2019.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tickets\Enterprise N LTSB 2015.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tickets\Enterprise N LTSB 2016.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tickets\Enterprise N.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tickets\Enterprise.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tickets\Home China.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tickets\Home N.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tickets\Home Single Language.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tickets\Home.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tickets\IoT Enterprise LTSC 2021.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tickets\IoT Enterprise LTSC 2024.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tickets\IoT Enterprise LTSC Subscription 2024.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tickets\IoT Enterprise Subscription.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tickets\IoT Enterprise.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tickets\KMS38.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tickets\Pro Education N.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tickets\Pro Education.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tickets\Pro for Workstations.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tickets\Pro N for Workstations.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tickets\Pro N.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tickets\Pro.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tickets\Team.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="iNKORE.UI.WPF" Version="1.2.8" />
+    <PackageReference Include="iNKORE.UI.WPF.Modern" Version="0.10.1" />
+    <PackageReference Include="Microsoft.PowerShell.SDK" Version="7.5.4" />
+    <PackageReference Include="System.Management" Version="9.0.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Activators\ohook_activation.cmd">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
