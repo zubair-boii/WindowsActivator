@@ -2,6 +2,8 @@
 
 > ⚠️ This project is a work in progress. The code is not perfect, but it works. I have tried my best.
 
+ ![Main Window](screenshots/main-window.png)
+
 ## Overview
 This is a simple Windows desktop application built with WPF.  
 It automates Windows activation using generic keys and KMS tickets.  
